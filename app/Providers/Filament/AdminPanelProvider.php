@@ -32,7 +32,7 @@ class AdminPanelProvider extends PanelProvider
             ->emailVerification()
             ->profile()
             ->colors([
-                'primary' => Color::Slate(),
+                'primary' => Color::Slate,
             ])
             ->font('Inter')
             ->favicon('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJLWirpbBeqIWuDa8yne3XFtqlK_4i1EHs0F60UCf-w&s')
