@@ -4,7 +4,7 @@
         <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
 
             @foreach($services as $service)
-                <a href="#" class="group relative block">
+                <a href="{{ route('service' , ['service_slug' => $service->slug, 'id' => $service->id ]) }}" class="group relative block">
                     <div class="relative h-[350px] sm:h-[450px]">
                         <img
                         src="{{ $service->thumbnailUrl() }}"
